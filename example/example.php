@@ -6,7 +6,13 @@ include "sPagination.php";
 
 // pdo ile veritabanı bağlantısı
 
-$db = new PDO("mysql:host=localhost;dbname=spagination", "root", "");
+
+$databaseHost="localhost";
+$databaseName="spagination";
+$databaseUser="root";
+$databasePassword="";
+
+$db = new PDO("mysql:host=".$databaseHost.";dbname=".$databaseName, $databaseUser, $databasePassword);
 
 // toplam kayıtları alıyoruz ve değişkene aktarıyoruz
 
