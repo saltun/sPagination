@@ -5,8 +5,6 @@
 include "sPagination.php";
 
 // pdo ile veritabanı bağlantısı
-
-
 $databaseHost="localhost";
 $databaseName="spagination";
 $databaseUser="root";
