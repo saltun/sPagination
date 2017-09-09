@@ -1,12 +1,12 @@
-<?php
-/*
-* Author : Savaş Can Altun
-* Web : http://savascanaltun.com.tr
-* Mail : savascanaltun@gmail.com
-* GİT : http://github.com/saltun
-* Date : 20.11.2014
-* Update : 20.11.2014
+/**
+* @author Savaş Can ALTUn <savascanaltun@gmail.com>
+* @link  http://savascanaltun.com.tr
+* @link  http://github.com/saltun
+* @since 20.11.2014
+* @example example/example.php
+* @version 1.0
 */
+
 class sPagination {
     public $getname, $totalpost, $maxpost, $url, $size, $lang;
     public function pageList() {
